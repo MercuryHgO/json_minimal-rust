@@ -327,8 +327,6 @@ impl Json {
                         .as_str()
                 );
 
-                result.pop();
-
                 result.push(']');
             }
             Json::STRING(val) => {
